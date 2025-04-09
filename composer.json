@@ -1,0 +1,44 @@
+{
+    "name": "ludovic-v/vega",
+    "description": "Learn how to build the vega framework with poo in php",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["php", "php8", "vega", "framework", "web"],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "VegaCore\\": "vega_core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ludovic V",
+            "email": "vinga.ludovic@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "symfony/var-dumper": "^7.2"
+    },
+    "require": {
+        "eredost/attributes-router": "^1.0",
+        "php-di/php-di": "^7.0",
+        "symfony/dotenv": "^7.2",
+        "symfony/error-handler": "^7.2",
+        "symfony/http-foundation": "^7.2",
+        "twig/twig": "^3.20"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Eredost/attributes-router.git"
+        }
+]
+}
